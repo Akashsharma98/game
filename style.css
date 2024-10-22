@@ -1,0 +1,89 @@
+*{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0;
+   
+}
+.gradient{
+    height: 1rem;
+    width: 40%;
+    margin-left: 30%;
+    background-color: black;
+    margin-top: auto;
+}
+nav{
+    background-color: cornflowerblue;
+    height: 8rem;
+    text-align: center;
+    padding: 10px;
+    
+      
+    
+}
+nav h1{
+    color: red;
+    font-size: 3rem;
+    margin-top:2rem;
+    
+}
+p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+input{
+    font-size: 1.5rem;
+    width: 13rem;
+    border-color: blue;
+    border-width: 1rem;
+    background-color: aquamarine;
+}
+button{
+    font-size: 1rem;
+    background-color: rgb(126, 175, 175);
+    border-width: 0.3rem;
+    border-color: blue;
+    margin-top: 1rem;
+    cursor: pointer;
+   
+}
+.submit{
+    font-size: 1rem;
+    background-color: rgb(126, 175, 175);
+    border-width: 0.3rem;
+    border-color: blue;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.square_shape{
+    width: 400px;
+    height: 500px;
+    background-image: url(/game.jpeg);
+    background-size: cover;
+    border-style: solid;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.start_game:disabled{
+    cursor: not-allowed;
+}
+.result{
+    position: relative;
+    color: rgb(12, 12, 12);
+    font-size: 2rem;
+    margin-top: 0.7rem;
+}
+.all_guesses{
+    position: relative;
+    bottom: 2rem;
+    color: rgb(14, 13, 13);
+    font-style: bold;
+
+}
