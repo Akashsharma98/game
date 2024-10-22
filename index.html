@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <nav><h1>Guess the number</h1></nav>
+    <div class="gradient"></div>
+    <p> Enter a guess between 0 to 100</p>
+    <form><!--form tag is liye use kiya taki enter karne par submit event add ho jaye-->
+
+        <input class="input"  type="number" placeholder="Enter a number" max="100" min="0" required>
+        <div>
+        <button class="submit"> submit</button>
+        <button type="button"class="start_game" disabled>Restart game</button>
+        </div>
+    </form>    
+    <div class="square_shape"></div>
+    <p class="result"></p>
+    <p class="all_guesses"></p>
+
+
+</body>
+
+</html>
